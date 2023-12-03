@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import warnings
 import matplotlib
+from scipy import stats
 
 plt.rcParams["font.family"] = "Avenir"
 matplotlib.rcParams['figure.dpi'] = 100
@@ -218,19 +219,29 @@ def run_all_corr_graphs(inputNb, scatter_x, scatter_y):
     elif (scatter_y == "propResidentialZoned"):
         disp_y = "% zoning residential"
 
-    plt.scatter(censusTractsReg[scatter_x], censusTractsReg[scatter_y],
-                c="black", s=2)
+    r, p = stats.pearsonr(np.ndarray.
+                          flatten(censusTractsReg[scatter_y].values.reshape(-1, 1)),
+                          np.ndarray.flatten(
+                              censusTractsReg[scatter_x].values.reshape(-1, 1)))
+    r = np.round(r, 2)
+    p = np.round(p, 2)
+
+    ax6 = plt.axes()
+    ax6.scatter(censusTractsReg[scatter_x], censusTractsReg[scatter_y], c="black",
+            s=2)
+
     try:
         a, b = np.polyfit(censusTractsReg[scatter_x],
                           censusTractsReg[scatter_y], 1)
-        plt.plot(censusTractsReg[scatter_x], a * censusTractsReg[scatter_x] + b,
+        ax6.plot(censusTractsReg[scatter_x], a * censusTractsReg[scatter_x] + b,
                  c="red", linewidth=1)
     except:
-        plt.plot(censusTractsReg[scatter_x], 0 * censusTractsReg[scatter_x] + 0,
+        ax6.plot(censusTractsReg[scatter_x], 0 * censusTractsReg[scatter_x] + 0,
                  c="black", linewidth=0)
 
     plt.xlabel(disp_x, fontsize=12)
     plt.ylabel(disp_y, fontsize=12)
+    plt.text(0.27, 3.1, "r=" + str(r) +", p="+str(p), fontsize=12, transform=ax6.transAxes)
 
     plt.savefig(
         "/Graphics/2023_scatter_" +
