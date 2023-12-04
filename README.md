@@ -36,8 +36,22 @@ A more general takeawy has to do with mixed-use zoning. The results here would s
 
 
 ## Where is the data from?
-TODO
+<p>    
+                <a href = "https://data.census.gov/"> US Census Bureau Demographic Data</a>, 
+                <a href = "https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4"> DCP Community Districts</a>,
+                <a href = "https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-PLUTO-/64uk-42ks"> 
+                DCP MAPPLUTO</a>,
+                <a href = "https://data.cityofnewyork.us/City-Government/2020-Census-Tracts-Mapped/weqx-t5xr"> 
+                ACS 2020 Census Tracts</a>,
+                <a href = "https://data.cityofnewyork.us/City-Government/Zoning-Application-Portal-ZAP-Project-Data/hgx4-8ukb"> 
+                DCP Zoning Application Portal</a>.
+                </p>
 
 
 ## Are there caveats in the results?
-TODO
+  The p-value threshold was chosen as 0.1, which is more lenient than the commonly seen 0.05. In truth, the p-value
+                 threshold is arbitrary and relative, not absolute, values should be the focus here. Gaps in regions of the choropleth 
+                 maps are the result of missing or corrupted data. Gaps in regions of the Manhattan map mean that the neighborhood did 
+                 not have a statistically significant correlation. Several correlation pairs were insignificant city-wide (3 of 10). These were omitted
+                 from the dropdown. 
+                
