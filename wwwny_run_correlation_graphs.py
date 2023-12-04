@@ -241,7 +241,8 @@ def run_all_corr_graphs(inputNb, scatter_x, scatter_y):
 
     plt.xlabel(disp_x, fontsize=12)
     plt.ylabel(disp_y, fontsize=12)
-    plt.text(0.27, 3.1, "r=" + str(r) +", p="+str(p), fontsize=12, transform=ax6.transAxes)
+    plt.text(0.03, 0.93, "r=" + str(r) +", p="+str(p), fontsize=12, transform=ax6.transAxes,
+             bbox=dict(boxstyle='square,pad=.3',facecolor='lightgrey', edgecolor='white'))
 
     plt.savefig(
         "/Graphics/2023_scatter_" +
