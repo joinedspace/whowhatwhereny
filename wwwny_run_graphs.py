@@ -247,7 +247,7 @@ plt.savefig(
     "/Graphics/2023_median_income_" + inputNb.replace(
         " ", "_").replace("/", "_"), dpi=500)
 
-# Plot a choropleth of median income across neighborhood census tracts
+# Plot a choropleth of median age across neighborhood census tracts
 censusTracts["medianAge"] = censusTracts["medianAge"].astype(float)
 censusTracts = censusTracts.to_crs("epsg:2263")
 ax3 = censusTracts.plot(column='medianAge', legend=True,
@@ -287,7 +287,7 @@ plt.savefig(
     "/Graphics/2023_median_age_" + inputNb.replace(
         " ", "_").replace("/", "_"), dpi=500)
 
-# Plot a choropleth of median income across neighborhood census tracts
+# Plot a choropleth of % racial minority across neighborhood census tracts
 censusTracts["minorityPop"] = censusTracts["minorityPop"].astype(float)
 censusTracts = censusTracts.to_crs("epsg:2263")
 ax4 = censusTracts.plot(column='minorityPop', legend=True,
