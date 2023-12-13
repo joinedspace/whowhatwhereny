@@ -26,7 +26,7 @@ To put it simply, this is a proof-of-concept for the larger end goal of democrat
 
 Unsurprisingly, many of the correlative relationships were inconclusive. The totality of phenomena is too large to list out here, but an example of an interesting emergence is as follows, and the poster file in this submission packet goes into more depth on this topic.
 	
-Considering the variable pair ``\% residential zoned" and ``\% racial minority", three neighborhoods have significantly negative results: the West Village, West Harlem, and Turtle Bay. The first two have the stronger correlations (roughly -0.5 each). What is interesting is that both of these neighborhoods are university districts, housing NYU and Columbia respectively. Is it a stretch to posit that the extensive purchasing of residential property by these universities results in displacement, gentrification, and lower diversity than populations outside?
+Considering the variable pair "% residential zoned" and "% racial minority", three neighborhoods have significantly negative results: the West Village, West Harlem, and Turtle Bay. The first two have the stronger correlations (roughly -0.5 each). What is interesting is that both of these neighborhoods are university districts, housing NYU and Columbia respectively. Is it a stretch to posit that the extensive purchasing of residential property by these universities results in displacement, gentrification, and lower diversity than populations outside?
 	
 A lot of literature supports this statement, and it's a general topic that certainly warrants significant investigation.
 	
