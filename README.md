@@ -3,9 +3,9 @@ A visual exploration of correlations between various census demographics and lan
 
 ## Who is this for?
 
-This is for everybody. Making open data visually enticing and (relatively) uncluttered is always the end goal. Mapping human data does more than satisfy a curiosity. It's a way of legitimizing an aggregated condition. While needing to trade nuance for sweeping hypotheses can be off-putting, the ability to show statistical relationships is hugely valuable as a corroboration of the anecdotal.
+This is for everybody. Going beyond open data and creating visually enticing and (relatively) uncluttered visualizations that connect the dots was the goal. Mapping human data does more than satisfy a curiosity. It's a way of legitimizing an aggregated condition. While needing to trade nuance for generalization can be off-putting, the ability to show statistical relationships is hugely valuable as a corroboration of the anecdotal. Rather than squash voices, I would argue that democratized data visualization might amplify them.
 	
-To put it simply, this is a proof-of-concept for the larger end goal of democratizing not just data access, but visualization, analysis, and theory-making.
+Put simply, this is a proof-of-concept for the larger end goal of democratizing not just data access, but visualization, analysis, and theory-making.
 
 
 ## How do I use the dashboard?		
