@@ -24,16 +24,15 @@ To put it simply, this is a proof-of-concept for the larger end goal of democrat
 
 ## What exactly does all of this show?
 
-Unsurprisingly, many of the correlative relationships were inconclusive. The totality of phenomena is too large to list out here, but an example of an interesting emergence is as follows, and the poster file in this repository goes into more depth on the topic.
+Unsurprisingly, many of the correlative relationships were inconclusive. The totality of phenomena is too large to list out here, but an example of an interesting emergence is as follows, and the poster file in this submission packet goes into more depth on this topic.
 	
-Considering the variable pair "% residential zoned" and "% racial minority", three neighborhoods have significantly negative results: the West Village, West Harlem, and Turtle Bay. The first two have the stronger correlations (roughly -0.5 each). What is interesting is that both of these neighborhoods are college districts, housing NYU and Columbia respectively. Is it a stretch to posit that the extensive purchasing of residential property by these universities results in displacement, gentrification, and lower diversity than populations outside?
+Considering the variable pair ``\% residential zoned" and ``\% racial minority", three neighborhoods have significantly negative results: the West Village, West Harlem, and Turtle Bay. The first two have the stronger correlations (roughly -0.5 each). What is interesting is that both of these neighborhoods are university districts, housing NYU and Columbia respectively. Is it a stretch to posit that the extensive purchasing of residential property by these universities results in displacement, gentrification, and lower diversity than populations outside?
 	
-It certainly warrants another look.
+A lot of literature supports this statement, and it's a general topic that certainly warrants significant investigation.
 	
-A more general takeaway has to do with mixed-use zoning. The results here would suggest that there is very little widespread correlation between a neighborhood being more mixed-use and suffering from socioeconomic chasms as a result of say, gentrification. In order to make more firm statements, a time-series of zoning would allow for a more robust analysis, but this certainly seems to be a check in the box favoring mixed-use zoning.
+A more general takeaway has to do with mixed-use zoning. The results here would suggest that there is very little widespread correlation between a neighborhood being more mixed-use and suffering from socioeconomic chasms as a result of say, gentrification.A time-series of zoning would allow for a more robust analysis, but this certainly seems to be a check in the box favoring mixed-use zoning.
 	
 In the end, the purpose of this project was to democratize data visualization, so play around with combinations of variables and see what sorts of trends emerge!
-
 
 ## Where is the data from?
 <p>    
