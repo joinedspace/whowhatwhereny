@@ -10,17 +10,17 @@ To put it simply, this is a proof-of-concept for the larger end goal of democrat
 
 ## How do I use the dashboard?		
 
-1. Select a pair of variables at the top left of the dashboard to update the map of Manhattan.
-	
+1. Select a pair of variables at the top left of the dashboard to update the map of Manhattan. 
+
 2. The color distribution represents the Pearson's correlation score between the selected variables at the neighborhood (community district) level. Hatched areas indicate a negative correlation.
-	
+
 3. This correlation pair is the very same as that shown in the scatter plot underneath the map.
-	
-4. The top right map of the dashboard displays the selected Manhattan neighborhood with a choropleth of the selected display variable. 
-	
-5. This also updates the geographical location represented by the scatter plot.
-	
-6. Play around with the furthest right dropdown to change the selected display variable from step 4.
+
+4. The top right map displays the selected Manhattan neighborhood with an overlaid choropleth or categorical distribution of the selected display variable. 
+
+5. This action also updates the neighborhood locator on the zoomed-out map of Manhattan.
+
+6. Play around with the top right dropdown to change the selected display variable from step 4.
 
 ## What exactly does all of this show?
 
